@@ -1,0 +1,3 @@
+include ':app', ':libwebrtc'
+include ':libwebrtc:messagebird'
+include ':mylibrary'

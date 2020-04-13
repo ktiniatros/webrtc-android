@@ -1,0 +1,39 @@
+package xyz.vivekc.webrtccodelab
+
+open class Constants {
+    companion object {
+
+        const val SOCKET_HOST_URL = "http://192.168.178.35:8080"
+        const val ROOM_NAME = "Pouli"
+        const val VIDEO_TRACK_ID = "100"
+        const val AUDIO_TRACK_ID = "101"
+        const val LOCAL_MEDIA_STREAM_TRACK_ID = "102"
+        const val CAPTURE_THREAD = "CaptureThread"
+        const val OFFER_TO_RECEIVE_AUDIO = "OfferToReceiveAudio"
+        const val LOCAL_SET_REMOTE = "localSetRemote"
+        const val LOCAL_CREATE_ANS = "localCreateAns"
+        const val LOCAL_CREATE_OFFER = "localCreateOffer"
+        const val LOCAL_SET_LOCAL = "localSetLocal"
+        const val LOCAL_SET_LOCAL_DESC = "localSetLocalDesc"
+        const val TYPE = "type"
+        const val LABEL = "label"
+        const val ID = "id"
+        const val CANDIDATE = "candidate"
+        const val ANSWER = "answer"
+        const val OFFER = "offer"
+        const val EVENT_BYE = "bye"
+        const val SDP = "sdp"
+        const val MESSAGE = "message"
+        const val USERNAME = "ktiniatros"
+        const val PASSWORD = "43236bc2-7bea-11ea-87ab-0242ac110004"
+
+    }
+
+    interface VideoParams {
+        companion object {
+            var WIDTH = 1024
+            var HEIGHT = 720
+            var FPS = 30
+        }
+    }
+}
